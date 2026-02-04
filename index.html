@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cris&Dan</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="circulo" id="fundo-copo"></div>
+
+    <div class="conteudo">
+      <div class="textos">
+        <h3>
+          Isso tudo começa aqui! <span>Cris</span>&<span class="wol">Dan!</span>
+        </h3>
+
+        <p id="texto-alvo">
+          Tudo começa aqui! Quando nos reencontramos no dia 31/12/2025, te ver naquele dia
+          foi mágico, parecia que o tempo tinha parado e só existia você, senti uma chama dentro do meu peito,
+          algo que eu não sentia há muito tempo. Falar com você naquela noite foi incrivel,
+          foi momentos magicos, até virar o ano, e rolar novamente nosso beijo...
+        </p>
+
+        <button>Amo Você!</button>
+      </div>
+
+      <div class="imagem">
+        <img
+          id="imagem-copo"
+          src="image/inicio.png"
+          class="imagem-copo"
+          alt="Imagem principal"
+        />
+      </div>
+    </div>
+
+    <div class="menu">
+      <img
+        src="image/foto1.png"
+        class="botao-menu"
+        alt="Botão 1"
+        onclick="trocarImagem(
+          'image/foto1.png',
+          '#00ff4c',
+          'Essa foi nossa primeira foto juntos, foi um dia especial para mim, viver um momento de casal em publico oficialmente pela primeira vez. Eu gostei da maneira como você me abordou, querendo estar comigo nesse dia, isso foi importante, ali entendi que você realmente queria estar ao meu lado.'
+        )"
+      />
+
+      <img
+        src="image/foto2.png"
+        class="botao-menu"
+        alt="Botão 2"
+        onclick="trocarImagem(
+          'image/foto2.png',
+          '#bebe77',
+          'Nesse dia dessa foto, eu já sabia que te amava, eu já sabia que era você, eu tinha a certeza que queria passar o resto da minha vida ao seu lado. Mesmo com dias conturbados, você sempre reafirmava que me queria e buscava soluções. Isso foi lindo.'
+        )"
+      />
+
+      <img
+        src="image/foto3.jpeg"
+        class="botao-menu"
+        alt="Botão 3"
+        onclick="trocarImagem(
+          'image/foto3.jpeg',
+          '#ff1493',
+          'Sua companhia me alegra, seu olhar é doce, sua presença trouxe vida, forma e sentido. Quero retribuir tudo, te proteger, te amar, te respeitar e ser verdadeiro pra você.'
+        )"
+      />
+
+      <img
+        src="image/final.png"
+        class="botao-menu"
+        alt="Botão 4"
+        onclick="trocarImagem(
+          'image/namoro.gif',
+          '#ff0000',
+          'Agora é oficial essa bagaça kkkk. Antes de responder, olha pro lado, me vê aí, e espera eu dizer umas palavrinhas...'
+        )"
+      />
+    </div>
+
+    <script src="Javascript/script.js"></script>
+  </body>
+</html>
